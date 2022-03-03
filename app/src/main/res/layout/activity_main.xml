@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="@dimen/dp_5"
+            android:layout_margin="@dimen/dp_5"
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cancel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:tag="@+id/last_click_time"
+            android:background="#50FFFFFF"
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp_3"
+            android:text="1" />
+
+        <Button
+            android:tag="@+id/last_click_time"
+            android:background="#50FFFFFF"
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp_3"
+            android:text="2" />
+
+        <Button
+            android:tag="@+id/last_click_time"
+            android:background="#50FFFFFF"
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp_3"
+            android:text="3" />
+
+        <Button
+            android:tag="@+id/last_click_time"
+            android:background="#50FFFFFF"
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp_3"
+            android:text="4" />
+    </LinearLayout>
+
+
+</FrameLayout>
